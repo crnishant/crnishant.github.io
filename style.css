@@ -226,6 +226,10 @@ body{
 		color: #d8ac27;
 	}
 
+	#bhic {
+		color: #2421bc;
+	}
+
 	#bha {
 		color: #278ed8;
 	}
@@ -371,10 +375,9 @@ body{
 	}
 
 	#aboutme p {
-		width: 50%;
-		max-width: 600px;
+		//width: 50%;
+		//max-width: 600px;
 		margin-left: 50%;
-		text-align: left;
 		font-family: 'Raleway', sans-serif;
 		line-height: 1.5;
 		font-size: 1.3rem;
@@ -452,7 +455,6 @@ body{
 
 	#education h1{
 		padding-top: 20px;
-		font-size: 2rem;
 		font-family: 'Amatic SC', cursive;
 		letter-spacing: 1.5px;
 	}
