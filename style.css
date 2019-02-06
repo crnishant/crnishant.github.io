@@ -132,6 +132,7 @@ body{
 		border-radius: 10%;
 		z-index: -1;
 		position: relative;
+		transform: rotate(90deg);
 	}
 
 	#aboutme {
