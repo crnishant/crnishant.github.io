@@ -362,7 +362,7 @@ body{
 @media only screen and (min-width: 960px) {
 #banner-container img {
 	width: 50%;
-	transform: rotate(90deg);
+	//transform: rotate(90deg);
 }
 
 #aboutme .pic {
@@ -421,6 +421,9 @@ body{
 
 /* For LARGE PHONES, TABLETS */
 @media only screen and (min-width: 640px) {
+#banner-container img {
+	transform: rotate(90deg);
+}
 #aboutme .underline {
 	width: 200px;
 	display: block;
