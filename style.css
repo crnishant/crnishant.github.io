@@ -395,10 +395,30 @@ body{
 
 #experiences h2{
 	font-size: 1.3rem;
+	margin-left: 5%;
+}
+
+#experiences ul{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#experiences ul:last-child{
+	margin-left: 10%;
+}
+
+#goals #creative{
+	margin-left: 5%;
+}
+
+#goals #open{
+	margin-right: 5%;
 }
 
 #goals p {
 	font-size: 1.3rem;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 #goals p:last-child {
