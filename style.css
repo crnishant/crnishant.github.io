@@ -385,6 +385,10 @@ body{
 	padding-left: 60px;
 }
 
+#compsci, #finance{
+	font-size: 2.2rem;
+}
+
 .why-compsci {
 	width: 100%;
 }
