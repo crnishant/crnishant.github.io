@@ -335,6 +335,12 @@ body{
 	line-height: 1.5;
 }
 
+#awards {
+	width: 100%;
+	background-color: #afd8ff;
+	text-align: center;
+}
+
 #contact {
 	width: 100%;
 	background-color: #fff;
