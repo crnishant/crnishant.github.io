@@ -337,8 +337,28 @@ body{
 
 #awards {
 	width: 100%;
-	background-color: #afd8ff;
+	background-color: #edf2f7;
 	text-align: center;
+}
+
+#awards h1 {
+	padding-top: 20px;
+	font-size: 3rem;
+	font-family: 'Amatic SC', cursive;
+	letter-spacing: 1.5px;
+}
+
+#awards h2 {
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+}
+
+#awards h3 {
+	padding-top: 20px;
+	text-align: left;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
 }
 
 #contact {
