@@ -34,7 +34,8 @@
 }
 
 #aboutmelist{
-	font-size:1.5rem;
+	font-size:1.2rem;
+	font-family: 'Merriweather', serif;
 }
 #aboutmelist li{
 	background: rgba(194,240,240, 0.5);
