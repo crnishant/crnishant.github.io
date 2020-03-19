@@ -33,6 +33,12 @@
 	background: rgba(0,0,0,0.6);
 }
 
+#aboutmelist{
+	font-size:1.5rem;
+}
+#aboutmelist li{
+	background: rgba(194,240,240, 0.5);
+}
 /* for card elements to fade in on scroll
 .card-deck{
 	opacity:0;
