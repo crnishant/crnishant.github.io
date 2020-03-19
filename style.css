@@ -32,3 +32,11 @@
 	height:30%;
 	background: rgba(0,0,0,0.6);
 }
+
+/* for card elements to fade in on scroll
+.card-deck{
+	opacity:0;
+	transform: translate(0, 20px);
+	transition: all 0.2s;
+}*/
+
