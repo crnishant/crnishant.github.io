@@ -13,14 +13,17 @@
 	line-height: 2.0;
 }
 
-.navbar{
-	position:fixed;
-	transition:500ms ease;
-	background:transparent;
+.bg-light{
+	transition: 750ms ease;
+	background:rgba(255,255,255, 1) !important;
 }
 
-.navbar .scrolled{
-	background-color:#000;
+.bg-light.scrolled{
+	background:rgba(0,0,0,0.7) !important;
+}
+
+.color-change.ncol {
+	color:white !important;
 }
 
 .transparent{

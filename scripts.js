@@ -13,4 +13,16 @@ $(document).ready(function() {
 	});
 });*/
 
+$(window).scroll(function(){
+	$('nav').toggleClass('scrolled', $(this).scrollTop()>700);
+});
+
+$(window).scroll(function(){
+	if($(this).scrollTop()>700){
+		$('.color-change').addClass('ncol');
+	} else{
+		$('.color-change').removeClass('ncol');
+	}
+});
+
 	
