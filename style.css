@@ -73,10 +73,10 @@
 
 .fade-in {
 	opacity:0;
-	transition: opacity 250ms ease-in;
+	transition: opacity 100ms ease;
 }
 
-.fade-in.appear{
+/*.fade-in.appear{
 	opacity:1;
-}
+}*/
 
