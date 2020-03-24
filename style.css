@@ -70,10 +70,13 @@
 .carousel-caption{
 	background:rgba(0,0,0,0.8);
 }
-/* for card elements to fade in on scroll
-.card-deck{
+
+.fade-in {
 	opacity:0;
-	transform: translate(0, 20px);
-	transition: all 0.2s;
-}*/
+	transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear{
+	opacity:1;
+}
 
