@@ -12,6 +12,7 @@
 
 		<script src = "scripts.js"></script>
 		<link rel="icon" href = "/images/logo.png">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
@@ -60,15 +61,19 @@
 		<div class="container text-center">
 			<a href="https://www.linkedin.com/in/nishant-chintala/" 
 			 target="_blank">
-				<img src="images/linkedinlogo.jpg" style="width:30%;">
+				<img data-aos="slide-right" src="images/linkedinlogo.jpg" style="width:30%;">
 			</a>
 			<a href="https://github.com/crnishant" 
 			 target="_blank">
-				<img src="images/githublogo.jpg" style="width:30%; margin-left:30%;">
+				<img data-aos="slide-left" src="images/githublogo.jpg" style="width:30%; margin-left:30%;">
 			</a>
 		</div>
 		<br/>
 		<br/>
 		<br/>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  		<script>
+    		AOS.init();
+  		</script>
     </body>
 </html>

@@ -13,6 +13,7 @@
 
 		<script src = "scripts.js"></script>
 		<link rel="icon" href = "/images/logo.png">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 	</head>
 
 	<body>
@@ -50,18 +51,22 @@
 			
 		<div>
 			<div class="row align-items-center" style="width:100%">
-				<div class="col-12 col-md-6" style="margin-left:40px;"><img width="95%" src="/images/nzhiking.jpg" sizes="(max-width: 660px) 100vw, 660px"></div>
+				<div data-aos="fade-right" class="col-12 col-md-6" style="margin-left:40px;"><img width="95%" src="/images/nzhiking.jpg" sizes="(max-width: 660px) 100vw, 660px"></div>
 				<div class="col-12 col-md-5" style="margin-left:50px;">
-					<h1 class = "title">Student. Innovator. Leader.</h1>
+					<h1 data-aos="fade-left" data-aos-delay="200" class = "title">Student. Innovator. Leader.</h1>
 					<br/>
-					<p class = "text">Hi! My name is Nish. I am currently a junior at the University of Delaware, 
+					<p data-aos="fade-left" data-aos-delay="400"class = "text">Hi! My name is Nish. I am currently a junior at the University of Delaware, 
 						studying computer science and finance. My goal is to use both of these passions to impact
 						the world in a positive way. Want to know more?
 					</p>
 					<br/>
-					<a class="btn btn-dark my-3 btn-block text" href="aboutme.html">More About Me</a>
+					<a data-aos="fade-up" data-aos-delay="600" class="btn btn-dark my-3 btn-block text" href="aboutme.html">More About Me</a>
 				</div>
 			</div>
 		</div>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  		<script>
+    		AOS.init();
+  		</script>
 	</body>
 	</html>

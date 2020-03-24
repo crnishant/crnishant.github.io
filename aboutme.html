@@ -17,6 +17,7 @@
 
 		<script src = "scripts.js"></script>
 		<link rel="icon" href = "/images/logo.png">
+		<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
     <body>
         <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light">
@@ -71,7 +72,7 @@
 		<br/>
 		<br/>
 		<div class="card-deck" style = "margin-left:50px; margin-right:50px;">
-			<div class="card">
+			<div data-aos="fade-up" class="card">
 			  <img class="card-img-top" src="images/computer-science.jpg" alt="Card image cap">
 			  <div class="card-body">
 				<h5 class="card-title">Why Computer Science?</h5>
@@ -93,7 +94,7 @@
 				</p>
 			  </div>
 			</div>
-			<div class="card">
+			<div data-aos="fade-up" data-aos-delay="200" class="card">
 			  <img class="card-img-top" src="images/finance.jpg" alt="Card image cap">
 			  <div class="card-body">
 				<h5 class="card-title">Why Finance?</h5>
@@ -114,7 +115,7 @@
 				</p>
 			  </div>
 			</div>
-			<div class="card">
+			<div data-aos="fade-up" data-aos-delay="400" class="card">
 			  <img class="card-img-top" src="images/quant.jpg" alt="Card image cap">
 			  <div class="card-body">
 				<h5 class="card-title">Both?</h5>
@@ -143,9 +144,9 @@
 
 		<div class="jumbotron jumbotron-fluid bg-dark">
 			<div class="container text-white">
-			  <h1 class="title">"Fear is just an opportunity in a costume."</h1>
+			  <h1 data-aos="slide-right" class="title">"Fear is just an opportunity in a costume."</h1>
 			  <br/>
-			  <p class="lead" style="font-family: 'Playfair Display', serif;">
+			  <p data-aos="slide-left" class="lead" style="font-family: 'Playfair Display', serif;">
 				  Whether we're talking about applying for a new job or moving to a 
 				  different home, fear can cloud someone's thoughts. What I have found
 				  personally beneficial is to look past the fear because underneath
@@ -159,27 +160,27 @@
 			<br/>
 			<br/>
 			<ul class="list-group list-group-flush container" id="aboutmelist">
-				<li class="list-group-item">
+				<li data-aos="fade-right" class="list-group-item">
 					<br/>
 					Travel-enthusiast: I have been to several countries, including 
 					New Zealand, Switzerland, India, and Italy.
 					<br/>
 					<br/>
 				</li>
-				<li class="list-group-item">
+				<li data-aos="fade-right" data-aos-delay="200"class="list-group-item">
 					<br/>
 					Philly sports fanatic: I am a huge fan of Philly sports and regularly keep up with the Eagles
 					and the Sixers.
 					<br/>
 					<br/>
 				</li>
-				<li class="list-group-item">
+				<li data-aos="fade-right" data-aos-delay="400" class="list-group-item">
 					<br/>
 					Foodie: I enjoy cooking and trying new foods. My favorite cuisine is Italian.
 					<br/>
 					<br/>
 				</li>
-				<li class="list-group-item">
+				<li data-aos="fade-right" data-aos-delay="600" class="list-group-item">
 					<br/>
 					Public speaker: unlike many people, I enjoy speaking in front of large
 					groups of people and have presented at conferences with over 500 people.
@@ -191,5 +192,9 @@
 			<br/>
 			<br/>
 		</div>
+		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  		<script>
+    		AOS.init();
+  		</script>
     </body>
 </html>
